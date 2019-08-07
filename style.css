@@ -1,0 +1,87 @@
+.container{
+    text-align: center;
+    background-color: rgb(64, 42, 85);
+    font-family: 'Saira Stencil One', cursive;
+}
+
+.heading{
+    font-size: 8rem;
+    color: black;
+    text-shadow: 2px 2px pink;
+}
+
+.drum{
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin: 20px;
+    font-size: 2rem;
+    font-family: 'Saira Stencil One', cursive;
+    color: brown;
+    text-shadow: 2px 2px plum;
+    border: 8px solid violet ;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
+
+.drum:hover{
+
+    box-shadow: 0 22px 26px 0 rgba(110, 21, 21, 0.24), 0 27px 50px 0  rgba(110, 21, 21, 0.24);
+    color: cadetblue;
+    border: 8px solid cadetblue ;
+}
+.drum:active{
+
+    transform: translateY(8px);
+}
+
+
+.w{
+    background-image : url("tom1.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat; 
+}
+.a{
+    background-image: url("tom2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.s{
+    background-image: url("tom3.jpg");
+    background-size:cover; 
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.d{
+    background-image:url("tom4.jpg");
+    background-size:cover;  
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.j{
+    background-image: url("kick.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.k{
+    background-image: url("snare.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.l{
+    background-image: url("crash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.drum1{
+    color: cadetblue;
+    border: 8px solid cadetblue ;
+    transform: translateY(8px);
+}
